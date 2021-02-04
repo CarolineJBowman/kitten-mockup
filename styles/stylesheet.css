@@ -1,1 +1,55 @@
+* {
+  font-family: Helvetica, sans-serif;
+}
+
+body {
+  color: rgb(57,57,57);
+}
+
+.header {
+  padding: 60px;
+  text-align: left;
+  background: rgb(44,154,183);
+  color: white;
+  font-size: 25px;
+}
+
+.secondary-title {
+  font-weight: lighter;
+  font-style: italic;
+  font-size: 25px;
+  width: 20rem;
+}
+
+.nav-bar {
+  padding: 30px;
+  text-align: justify;
+  background: rgb(235,235,235);
+  font-weight: bold;
+  color: rgb(57,57,57);
+}
+
+a {
+  color: rgb(44,154,183);
+}
+
+h2 {
+  color: rgb(44,154,183);
+  font-size: 1.5rem;
+}
+
+.client-quote {
+  color: rgb(44,154,183);
+  font-weight: lighter;
+  font-size: 20px;
+}
+
+.site-body {
+  padding: 30px;
+  width: 50%;
+}
 /* h4 needs an all caps style - header used in to go story and in aside
+
+font is a sans serif
+
+headings may be about 2rem
