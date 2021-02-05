@@ -1,5 +1,8 @@
 * {
   font-family: Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -31,25 +34,68 @@ body {
 
 a {
   color: rgb(44,154,183);
+  text-decoration: none;
 }
 
 h2 {
   color: rgb(44,154,183);
   font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+h3 {
+  margin-bottom: 15px;
 }
 
 .client-quote {
   color: rgb(44,154,183);
   font-weight: lighter;
   font-size: 20px;
+  padding: 20px;
 }
 
 .site-body {
   padding: 30px;
-  width: 50%;
+  width: 70%;
+  margin-right: 10px;
 }
-/* h4 needs an all caps style - header used in to go story and in aside
 
-font is a sans serif
+.sidebar {
+  padding: 30px;
+  width: 30%;
+  float: right;
+}
 
-headings may be about 2rem
+article {
+  padding: 20px;
+}
+
+footer {
+  clear: both;
+  padding: 30px;
+  text-align: center;
+  background: rgb(57,57,57);
+  color: white;
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+.footer-links {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 30px;
+}
+
+.company-logo {
+  padding: 20px;
+}
+
+.footer-date {
+  margin-top: 25px;
+}
+
+.footer-text {
+  padding: 10px;
+}
